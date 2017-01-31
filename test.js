@@ -9,19 +9,23 @@ test('result', async t => {
 	t.deepEqual(result, [
 		{
 	    title: 'Fake Image',
-	    link: `http://fakeimg.pl/${input}`
+	    subtitle: `http://fakeimg.pl/${input}`,
+	    arg: `http://fakeimg.pl/${input}`
 		},
 		{
 			title: 'Fake Image with Color',
-	    link: `http://fakeimg.pl/${input}/ff0000`
+	    subtitle: `http://fakeimg.pl/${input}/ff0000`,
+	    arg: `http://fakeimg.pl/${input}/ff0000`
 		},
 		{
 			title: 'Fake Image with Text',
-			link: `http://fakeimg.pl/${input}/?text=World`
+			subtitle: `http://fakeimg.pl/${input}/?text=World`,
+			arg: `http://fakeimg.pl/${input}/?text=World`
 		},
 		{
 			title: 'Fake Image with Text and Color',
-			link: `http://fakeimg.pl/${input}/ff0000/?text=World`
+			subtitle: `http://fakeimg.pl/${input}/ff0000/?text=World`,
+			arg: `http://fakeimg.pl/${input}/ff0000/?text=World`
 		}
 	]);
 });

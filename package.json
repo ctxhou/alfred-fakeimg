@@ -1,6 +1,6 @@
 {
   "name": "alfred-fakeimg",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "description": "alfred workflow to generate fakeimg.pl image link",
   "license": "MIT",
   "repository": "ctxhou/alfred-fakeimg",
