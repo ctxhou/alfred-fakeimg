@@ -1,0 +1,45 @@
+{
+  "name": "alfred-fakeimg",
+  "version": "0.0.0",
+  "description": "alfred workflow to generate fakeimg.pl image link",
+  "license": "MIT",
+  "repository": "ctxhou/alfred-fakeimg",
+  "author": {
+    "name": "ctxhou",
+    "email": "ctxhou@gmail.com",
+    "url": "github.com/ctxhou/alfred-fakeimg"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "ava",
+    "test:watch": "ava --watch",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "fakeimg",
+    "fake",
+    "image",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.6.0"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^0.15.2",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
