@@ -1,7 +1,8 @@
 # alfred-fakeimg [![Build Status](https://travis-ci.org/ctxhou/alfred-fakeimg.svg?branch=master)](https://travis-ci.org/ctxhou/alfred-fakeimg)
 
-> My exquisite module
+> [Alfred 3](https://www.alfredapp.com) workflow to generate fakeimg.pl image link
 
+<img src="media/screenshot.png" width="694">
 
 ## Install
 
@@ -14,8 +15,13 @@ $ npm install -g alfred-fakeimg
 
 ## Usage
 
-In Alfred, type `fakeimg`, <kbd>Enter</kbd>, and your query.
+In Alfred, type `fakeimg` <kbd>Enter</kbd>, and your query the image size to get fakeimg link.
 
+Select an item and press <kbd>Enter</kbd> to get link.
+
+## Related
+
+- [alfy](https://github.com/sindresorhus/alfy) - Create Alfred workflows with ease
 
 ## License
 
